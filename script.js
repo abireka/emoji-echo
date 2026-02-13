@@ -120,7 +120,7 @@ function createCards() {
 
     card.innerHTML = `
       <div class="card-inner">
-        <div class="card-front">#</div>
+        <div class="card-front"><img src="img/back.jpg" alt="Card Back"></div>
         <div class="card-back">${cardList[i].emoji}</div>
       </div>
     `;
