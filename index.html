@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoji Echo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="h1">Welcome to the Emoji Echo</h1>
+    <div id="scoreboard">
+      <div class="clock">Time: <span id="timer">00:00</span></div>
+      <div class="score">Score: <span id="clickcount">0</span></div>
+      <button id="start-button">Start</button>
+    </div>
+    <div class="game-board" id="game-board"></div>
+
+    <div id="pop-up" class="pop-up">
+      <div class="popup-text">
+        <h2>🎉 Congratulations!</h2>
+        <p>You won!</p>
+        <div class="stats">
+          <p>⏱️ Time: <span id="final-time">00:00</span></p>
+          <p>👆 Clicks: <span id="final-clicks">0</span></p>
+          <p>✨ You matched all 4 pairs!</p>
+        </div>
+        <button id="play-again-button">Play Again!</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
