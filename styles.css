@@ -42,7 +42,6 @@ body {
 }
 
 .card {
-  /* flex: 0 0 calc(33.333% - 15px); */
   aspect-ratio: 1 / 1;
   perspective: 1000px;
   cursor: pointer;
@@ -82,7 +81,6 @@ body {
   align-items: center;
   border-radius: 8px;
   overflow: hidden;
-  /* background-color: #6e468b; */
 }
 
 .card-front img {

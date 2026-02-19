@@ -22,12 +22,6 @@ const db = knex({
   useNullAsDefault: true, // Required for SQLite
 });
 
-// GET endpoint for listing data from a database
-app.get("/cards", async function (request, response) {
-  const rows = await db.raw("SELECT * FROM cards");
-  response.json(rows); // Respond with the data in JSON format
-});
-
 //GET endpoint to fetch all cards from the database
 app.get("/cards", async function (request, response) {
   try {
